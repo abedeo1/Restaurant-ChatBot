@@ -1,0 +1,331 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "What's up",
+        "How are you?",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Need help finding a place to eat?",
+        "Hey! Looking for something to eat on campus?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "I'm done",
+        "Thanks, that's all"
+      ],
+      "responses": [
+        "Goodbye! Hope to help you again soon.",
+        "Take care and enjoy your meal!",
+        "See you next time!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "restaurant_recommendation",
+      "patterns": [
+        "Where can I eat?",
+        "What's good on North Campus?",
+        "Any restaurants near Capen?",
+        "What are the food options on North Campus?",
+        "What's available in the Commons?",
+        "I'm hungry, where should I go?"
+      ],
+      "responses": [
+        "There are several places to eat at the Commons: Moe’s Southwest Grill, Subway, Panda Express, Tim Hortons, Burger King, and Starbucks.",
+        "For a sit-down meal, you could visit Crossroads Culinary Center (C3) in the Ellicott Complex.",
+        "If you're near Capen, Capen Café offers Starbucks and grab-and-go options.",
+        "Alumni Arena has Jamba Juice and Freshens Fresh Food Studio with salads and rice bowls.",
+        "Davis Hall Café is great for coffee and pastries if you're nearby.",
+        "For quick snacks and meals, the Union Market offers sandwiches, salads, pizza, and sushi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vegan_options",
+      "patterns": [
+        "I'm vegan",
+        "Where can I get vegan food?",
+        "Are there vegan options?",
+        "I need a vegan restaurant",
+        "Any vegan places nearby?"
+      ],
+      "responses": [
+        "Crossroads Culinary Center (C3) offers vegan meals with dedicated stations.",
+        "Freshens at Alumni Arena has vegan grain bowls and salads.",
+        "The Union Market also offers vegan grab-and-go options, including salads and fresh fruits.",
+        "For a quick vegan meal, try Moe’s Southwest Grill in the Commons where you can customize your order."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vegetarian_options",
+      "patterns": [
+        "I'm vegetarian",
+        "Where can I get vegetarian food?",
+        "Are there vegetarian options?",
+        "Any vegetarian places nearby?",
+        "I need vegetarian meals"
+      ],
+      "responses": [
+        "Crossroads Culinary Center (C3) has vegetarian stations with a wide range of options.",
+        "Subway in the Commons allows you to customize your sandwich with vegetarian ingredients.",
+        "Freshens at Alumni Arena also provides vegetarian salads and bowls.",
+        "The Union Market offers vegetarian sushi and other grab-and-go items."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gluten_free_options",
+      "patterns": [
+        "I'm gluten-free",
+        "Where can I get gluten-free food?",
+        "Are there gluten-free options?",
+        "I need a gluten-free restaurant",
+        "Any gluten-free places nearby?"
+      ],
+      "responses": [
+        "Freshens at Alumni Arena offers gluten-free grain bowls and salads.",
+        "Crossroads Culinary Center (C3) has gluten-free stations available for a full meal.",
+        "You can also find gluten-free snacks and grab-and-go options at the Union Market."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nut_allergy_options",
+      "patterns": [
+        "I have a nut allergy",
+        "Where can I eat with a nut allergy?",
+        "Any nut-free places on campus?",
+        "I need nut-free options"
+      ],
+      "responses": [
+        "Crossroads Culinary Center (C3) has nut-free stations available, just ask the staff for assistance.",
+        "Moe’s Southwest Grill in the Commons allows you to customize your meal to be nut-free.",
+        "Check with staff at the Union Market to confirm which grab-and-go items are safe for nut allergies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "lactose_intolerant_options",
+      "patterns": [
+        "I'm lactose intolerant",
+        "Where can I eat lactose-free?",
+        "Any lactose-free options?",
+        "I need lactose-free food"
+      ],
+      "responses": [
+        "Crossroads Culinary Center (C3) offers a variety of lactose-free meals.",
+        "Freshens at Alumni Arena has lactose-free options, including smoothies made with plant-based milks.",
+        "Subway and Moe’s Southwest Grill in the Commons also have lactose-free customization options."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "I need something cheap",
+        "What's a budget-friendly option?",
+        "I don't want to spend much",
+        "Any affordable restaurants?",
+        "Where can I eat for cheap on North Campus?"
+      ],
+      "responses": [
+        "For affordable meals, Subway in the Commons offers budget-friendly sandwiches.",
+        "Burger King is another affordable option for a quick bite.",
+        "You can grab a snack or sandwich at the Union Market for a low-cost meal.",
+        "Tim Hortons has inexpensive coffee, donuts, and sandwiches if you're in the Commons."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_moes",
+      "patterns": [
+        "What's the wait time at Moe's?",
+        "How busy is Moe's right now?",
+        "Is there a line at Moe's?",
+        "How long is the wait at Moe's Southwest Grill?"
+      ],
+      "responses": [
+        "The wait time at Moe’s is typically around 10-15 minutes during lunch hours.",
+        "Moe's usually has a moderate wait time of 10 minutes, depending on the time of day."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_tim_hortons",
+      "patterns": [
+        "What's the wait time at Tim Hortons?",
+        "How busy is Tim Hortons right now?",
+        "Is there a line at Tim Hortons?",
+        "How long is the wait at Tim Hortons?"
+      ],
+      "responses": [
+        "Tim Hortons can have a short wait during peak times, usually no more than 10 minutes.",
+        "The wait at Tim Hortons is typically quick, about 5-10 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_subway",
+      "patterns": [
+        "What's the wait time at Subway?",
+        "How busy is Subway right now?",
+        "Is there a line at Subway?",
+        "How long is the wait at Subway in the Commons?"
+      ],
+      "responses": [
+        "Subway is quick, with wait times under 5 minutes on average.",
+        "Subway usually has a very short wait, around 5 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_c3",
+      "patterns": [
+        "What's the wait time at C3?",
+        "How busy is C3 right now?",
+        "Is there a line at Crossroads Culinary Center?",
+        "How long is the wait at C3?"
+      ],
+      "responses": [
+        "Crossroads Culinary Center (C3) can be busy during dinner, but lines move quickly.",
+        "The wait time at C3 varies, but it's usually around 10 minutes during peak hours."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_freshens",
+      "patterns": [
+        "What's the wait time at Freshens?",
+        "How busy is Freshens right now?",
+        "Is there a line at Freshens?",
+        "How long is the wait at Freshens in Alumni Arena?"
+      ],
+      "responses": [
+        "Freshens at Alumni Arena has a moderate wait time of around 5-10 minutes.",
+        "The wait time at Freshens is typically about 5 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wait_time_jamba_juice",
+      "patterns": [
+        "What's the wait time at Jamba Juice?",
+        "How busy is Jamba Juice right now?",
+        "Is there a line at Jamba Juice?",
+        "How long is the wait at Jamba Juice in Alumni Arena?"
+      ],
+      "responses": [
+        "Jamba Juice usually has a short wait time, around 5 minutes.",
+        "You can expect a quick wait at Jamba Juice, typically no more than 5 minutes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_mexican",
+      "patterns": [
+        "I'm craving Mexican food",
+        "Where can I get Mexican food?",
+        "Is there Mexican food on campus?",
+        "I want Mexican food"
+      ],
+      "responses": [
+        "For Mexican food, head to Moe’s Southwest Grill in the Commons.",
+        "Moe’s Southwest Grill offers customizable burritos, tacos, and more with a Mexican flair."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_burger",
+      "patterns": [
+        "Where can I get a burger?",
+        "I'm craving a burger",
+        "Where can I find burgers on campus?",
+        "I want a burger"
+      ],
+      "responses": [
+        "If you're craving a burger, Burger King in the Commons has you covered.",
+        "Head to Burger King in the Commons for a variety of burgers and fast food."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_coffee",
+      "patterns": [
+        "I want coffee",
+        "Where can I get coffee?",
+        "Where's the best place for coffee on campus?",
+        "I'm craving coffee"
+      ],
+      "responses": [
+        "For coffee, you can visit Starbucks at Capen Café or the Commons, or Tim Hortons in the Commons.",
+        "Starbucks and Tim Hortons in the Commons are popular spots for coffee on campus."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_sushi",
+      "patterns": [
+        "Where's the best place for sushi?",
+        "I want sushi",
+        "Where can I find sushi on campus?",
+        "I'm craving sushi",
+        "sushi",
+        "sushi sounds good",
+        "suggestions for sushi?",
+        "I'm craving sushi"
+      ],
+      "responses": [
+        "If you're in the mood for sushi, try the Union Market or grab it fresh from the sushi section.",
+        "You can find sushi at the Union Market, freshly made and ready to go."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_sweets",
+      "patterns": [
+        "I want something sweet",
+        "Where can I find desserts?",
+        "I have a sweet tooth",
+        "Where can I get sweets on campus?",
+        "sweets",
+        "Where can I get sweets on campus?"
+      ],
+      "responses": [
+        "For something sweet, Tim Hortons and Starbucks offer pastries, while Jamba Juice at Alumni Arena has fruit smoothies.",
+        "You can satisfy your sweet tooth at Tim Hortons or Starbucks in the Commons with a variety of pastries."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cuisine_asian",
+      "patterns": [
+        "I'm in the mood for Asian food",
+        "Where can I get Asian food?",
+        "asian?",
+        "asian food",
+        "Where's the best place for Asian food on campus?",
+        "I want Asian food"
+      ],
+      "responses": [
+        "For Asian cuisine, Panda Express in the Commons has a variety of quick Chinese food options.",
+        "Panda Express in the Commons offers a range of Asian-inspired dishes, perfect for a quick meal."
+      ],
+      "context_set": ""
+    }
+  ]
+}

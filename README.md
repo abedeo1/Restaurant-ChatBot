@@ -10,6 +10,8 @@ The **Restaurant Recommendation Chatbot** is an AI chatbot designed to assist st
 - **Proximity Based**: Suggests restaurants based on the user’s current location.
 - **User-Friendly Interface**: Easy to interact with the chatbot for seamless experience.
 
+![Gameplay Screenshot1](https://github.com/abedeo1/Restaurant-ChatBot/blob/main/CBImage1.png?raw=true)
+
 ## Technologies Used
 - **Python**: Main programming language for the chatbot.
 - **Natural Language Toolkit (NLTK)**: For natural language processing tasks, including tokenization and lemmatization.
